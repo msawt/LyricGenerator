@@ -19,7 +19,7 @@ def parse_json_to_csv(artist_name):
     csv_file = "Lyrics_" + artist_name + "_parsed.csv"
     json_file = "Lyrics_" + artist_name + ".json"
 
-    with open(csv_file) as file:
+    with open(json_file) as file:
         data = json.load(file)
     
     lyrics = []
